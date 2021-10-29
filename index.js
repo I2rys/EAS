@@ -20,7 +20,6 @@ Web.get("/exec", function(req, res){
     async function Main(){
         const results = await Simple_Exec.executeSync(command)
 
-        console.log(results)
         if(results.err){
             res.send("Invalid command or something went wrong.")
         }else{
