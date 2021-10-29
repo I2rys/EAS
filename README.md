@@ -20,5 +20,8 @@ NPM Packages:
 
     node index.js
 
+## Note
+If your command does not work, encode it using [eVuln](http://evuln.com/tools/xss-encoder/) and copy the hex value then paste it in the cmd parameter.
+
 ## License
 MIT © I2rys
